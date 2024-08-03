@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+            /*book and dress section*/
+
+
+#book-section{
+    background-color: rgb(240, 240, 239);
+    border:2px dotted red;
+    border-radius:10%;
+}
+#dress-section{
+    background-color: rgb(240, 240, 239);
+    border:2px dotted red;
+    border-radius:10%;
+}
+
+                    /*calculate-btn section */
+#Calculate-btn{
+    justify-content: center;
+    
+    display: inline-block;
+    margin-left: 550px;
+    margin-top: 40px;
+
+    height:40px;
+    width:100px;
+    color:white;
+    /* background-color: red; */
+    border:4px solid green;
+}
+
+                /* form section  */
+
+#detail-and-payment{
+    /* border:2px solid red; */
+     background-color: aquamarine;
+    /*justify-content:center; */ 
+    
+    }
+#payment-form{
+    background-color: white;
+    /* justify-content: center;
+    background-color: red;  */
+}
+
+
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.section {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 45%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.class-section, .dress-section {
+    margin-bottom: 20px;
+}
+
+#total-price, #selected-items, #detail-and-payment {
+    margin: 20px;
+    font-size: 1.2em;
+}
